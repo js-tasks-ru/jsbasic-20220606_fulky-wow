@@ -13,5 +13,8 @@ let calculator = {
   }
 };
 
+calculator.read();
+alert( calculator.sum() );
+alert( calculator.mul() );
 // НЕ УДАЛЯТЬ СТРОКУ, НУЖНА ДЛЯ ПРОВЕРКИ
 window.calculator = calculator; // делает ваш калькулятор доступным глобально
